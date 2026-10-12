@@ -1,0 +1,214 @@
+{
+  "method": {
+    "nodes": 2,
+    "threads": 8,
+    "operations_per_thread": 2000,
+    "write_ratio": 0.2,
+    "repeats": 5,
+    "alternated_order": true
+  },
+  "trials": {
+    "one_partition": [
+      {
+        "nodes": 2,
+        "threads": 8,
+        "operations": 16000,
+        "write_ratio": 0.2,
+        "seconds": 0.5647479170002043,
+        "throughput_ops_s": 28331.224460265184,
+        "latency_ms_mean": 0.2771794503125,
+        "latency_ms_p50": 0.244667,
+        "latency_ms_p95": 0.572708,
+        "hits": 12852,
+        "node_stats": [
+          "STATS\tentries=1051\tpartitions=1\tpeak_rss_mb=1.70312",
+          "STATS\tentries=949\tpartitions=1\tpeak_rss_mb=1.6875"
+        ]
+      },
+      {
+        "nodes": 2,
+        "threads": 8,
+        "operations": 16000,
+        "write_ratio": 0.2,
+        "seconds": 0.5394087500171736,
+        "throughput_ops_s": 29662.106889238625,
+        "latency_ms_mean": 0.26598430725,
+        "latency_ms_p50": 0.239,
+        "latency_ms_p95": 0.544792,
+        "hits": 12833,
+        "node_stats": [
+          "STATS\tentries=1051\tpartitions=1\tpeak_rss_mb=1.6875",
+          "STATS\tentries=949\tpartitions=1\tpeak_rss_mb=1.6875"
+        ]
+      },
+      {
+        "nodes": 2,
+        "threads": 8,
+        "operations": 16000,
+        "write_ratio": 0.2,
+        "seconds": 0.5345457500079647,
+        "throughput_ops_s": 29931.95624464623,
+        "latency_ms_mean": 0.26365994675000004,
+        "latency_ms_p50": 0.236208,
+        "latency_ms_p95": 0.537958,
+        "hits": 12821,
+        "node_stats": [
+          "STATS\tentries=1051\tpartitions=1\tpeak_rss_mb=1.6875",
+          "STATS\tentries=949\tpartitions=1\tpeak_rss_mb=1.67188"
+        ]
+      },
+      {
+        "nodes": 2,
+        "threads": 8,
+        "operations": 16000,
+        "write_ratio": 0.2,
+        "seconds": 0.5295959579816554,
+        "throughput_ops_s": 30211.710944656083,
+        "latency_ms_mean": 0.2614589803125,
+        "latency_ms_p50": 0.233291,
+        "latency_ms_p95": 0.530041,
+        "hits": 12798,
+        "node_stats": [
+          "STATS\tentries=1051\tpartitions=1\tpeak_rss_mb=1.6875",
+          "STATS\tentries=949\tpartitions=1\tpeak_rss_mb=1.65625"
+        ]
+      },
+      {
+        "nodes": 2,
+        "threads": 8,
+        "operations": 16000,
+        "write_ratio": 0.2,
+        "seconds": 0.544857333006803,
+        "throughput_ops_s": 29365.485294478414,
+        "latency_ms_mean": 0.268806397125,
+        "latency_ms_p50": 0.239,
+        "latency_ms_p95": 0.546833,
+        "hits": 12813,
+        "node_stats": [
+          "STATS\tentries=1051\tpartitions=1\tpeak_rss_mb=1.67188",
+          "STATS\tentries=949\tpartitions=1\tpeak_rss_mb=1.70312"
+        ]
+      }
+    ],
+    "sixteen_partitions": [
+      {
+        "nodes": 2,
+        "threads": 8,
+        "operations": 16000,
+        "write_ratio": 0.2,
+        "seconds": 0.5407149999809917,
+        "throughput_ops_s": 29590.44968340524,
+        "latency_ms_mean": 0.26644394849999997,
+        "latency_ms_p50": 0.238083,
+        "latency_ms_p95": 0.544959,
+        "hits": 12852,
+        "node_stats": [
+          "STATS\tentries=1051\tpartitions=16\tpeak_rss_mb=1.75",
+          "STATS\tentries=949\tpartitions=16\tpeak_rss_mb=1.70312"
+        ]
+      },
+      {
+        "nodes": 2,
+        "threads": 8,
+        "operations": 16000,
+        "write_ratio": 0.2,
+        "seconds": 0.5227945419901516,
+        "throughput_ops_s": 30604.75715582625,
+        "latency_ms_mean": 0.2579698824375,
+        "latency_ms_p50": 0.229333,
+        "latency_ms_p95": 0.526959,
+        "hits": 12833,
+        "node_stats": [
+          "STATS\tentries=1051\tpartitions=16\tpeak_rss_mb=1.71875",
+          "STATS\tentries=949\tpartitions=16\tpeak_rss_mb=1.75"
+        ]
+      },
+      {
+        "nodes": 2,
+        "threads": 8,
+        "operations": 16000,
+        "write_ratio": 0.2,
+        "seconds": 0.5243703339947388,
+        "throughput_ops_s": 30512.786408242035,
+        "latency_ms_mean": 0.25918766793750003,
+        "latency_ms_p50": 0.231041,
+        "latency_ms_p95": 0.529458,
+        "hits": 12821,
+        "node_stats": [
+          "STATS\tentries=1051\tpartitions=16\tpeak_rss_mb=1.75",
+          "STATS\tentries=949\tpartitions=16\tpeak_rss_mb=1.75"
+        ]
+      },
+      {
+        "nodes": 2,
+        "threads": 8,
+        "operations": 16000,
+        "write_ratio": 0.2,
+        "seconds": 0.5658995409903582,
+        "throughput_ops_s": 28273.569496096494,
+        "latency_ms_mean": 0.27926294212499997,
+        "latency_ms_p50": 0.248792,
+        "latency_ms_p95": 0.566333,
+        "hits": 12798,
+        "node_stats": [
+          "STATS\tentries=1051\tpartitions=16\tpeak_rss_mb=1.75",
+          "STATS\tentries=949\tpartitions=16\tpeak_rss_mb=1.71875"
+        ]
+      },
+      {
+        "nodes": 2,
+        "threads": 8,
+        "operations": 16000,
+        "write_ratio": 0.2,
+        "seconds": 0.5346712089958601,
+        "throughput_ops_s": 29924.932801316943,
+        "latency_ms_mean": 0.263461185875,
+        "latency_ms_p50": 0.234625,
+        "latency_ms_p95": 0.538417,
+        "hits": 12813,
+        "node_stats": [
+          "STATS\tentries=1051\tpartitions=16\tpeak_rss_mb=1.73438",
+          "STATS\tentries=949\tpartitions=16\tpeak_rss_mb=1.73438"
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "one_partition": {
+      "throughput_ops_s": {
+        "mean": 29500.496766656906,
+        "stdev": 725.1769687409346
+      },
+      "latency_ms_mean": {
+        "mean": 0.26741781635,
+        "stdev": 0.006101268584866778
+      },
+      "latency_ms_p50": {
+        "mean": 0.23843319999999998,
+        "stdev": 0.004210003646079179
+      },
+      "latency_ms_p95": {
+        "mean": 0.5464664,
+        "stdev": 0.01607596200231886
+      }
+    },
+    "sixteen_partitions": {
+      "throughput_ops_s": {
+        "mean": 29781.299108977393,
+        "stdev": 941.2039564143248
+      },
+      "latency_ms_mean": {
+        "mean": 0.265265125375,
+        "stdev": 0.008525531565070322
+      },
+      "latency_ms_p50": {
+        "mean": 0.2363748,
+        "stdev": 0.007716912802410045
+      },
+      "latency_ms_p95": {
+        "mean": 0.5412252,
+        "stdev": 0.015765629774924947
+      }
+    }
+  }
+}
